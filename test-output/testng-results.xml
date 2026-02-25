@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-25T16:48:10 IST" name="Default suite" finished-at="2026-02-25T16:49:38 IST" duration-ms="87681">
+    <groups>
+      <group name="logged">
+        <method signature="TileLogin.tileLogin(java.util.HashMap)[pri:0, instance:practice.Sel_frame.TileLogin@54a7079e]" name="tileLogin" class="practice.Sel_frame.TileLogin"/>
+      </group> <!-- logged -->
+    </groups>
+    <test started-at="2026-02-25T16:48:10 IST" name="Default test" finished-at="2026-02-25T16:49:38 IST" duration-ms="87681">
+      <class name="practice.Sel_frame.TileLogin">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.Sel_frame.TileLogin@54a7079e]" started-at="2026-02-25T16:48:11 IST" name="launchApplication" finished-at="2026-02-25T16:48:45 IST" duration-ms="33750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tileLogin(java.util.HashMap)[pri:0, instance:practice.Sel_frame.TileLogin@54a7079e]" started-at="2026-02-25T16:48:45 IST" name="tileLogin" data-provider="getData" finished-at="2026-02-25T16:48:48 IST" duration-ms="2842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=rHP5I944$ja2, email=dali12@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tileLogin -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.Sel_frame.TileLogin@54a7079e]" started-at="2026-02-25T16:48:48 IST" name="launchApplication" finished-at="2026-02-25T16:49:35 IST" duration-ms="47590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tileLogin(java.util.HashMap)[pri:0, instance:practice.Sel_frame.TileLogin@54a7079e]" started-at="2026-02-25T16:49:35 IST" name="tileLogin" data-provider="getData" finished-at="2026-02-25T16:49:38 IST" duration-ms="2872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=zo@ryK9QVq@Q, email=sellertestworker@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tileLogin -->
+      </class> <!-- practice.Sel_frame.TileLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

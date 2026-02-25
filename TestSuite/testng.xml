@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">  <!--test run in a parallarly run only 1st method not all method from one file-->
+	<test thread-count="5" name="login">
+		<classes>
+			<class name="practice.Sel_frame.TileLogin" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="checkerror">
+		<classes>
+			<class name="practice.Sel_frame.ErrorValidation" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="cartMatch">
+		<classes>
+			<class name="practice.Sel_frame.AddToCart" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
