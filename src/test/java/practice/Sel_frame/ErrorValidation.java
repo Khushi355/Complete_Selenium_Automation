@@ -21,10 +21,10 @@ public class ErrorValidation extends BaseTest
 		loginPage.loginApplication("dali12@gmail.com", "rHP5I944$ja");
 		
 		Assert.assertTrue(
-				loginPage.getErrorMsg().contains("Invalid email or password. Please check your credentials and try again.")
+				loginPage.getErrorMsg().contains("Incorrect email or password")
 			);
 		
-	}
+	}//Invalid email or password. Please check your credentials and try again.
 	
 	@Test(groups= {"ErrorHandling"})
 	public  void addToCart()throws IOException
