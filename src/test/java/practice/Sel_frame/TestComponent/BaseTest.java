@@ -97,8 +97,9 @@ public class BaseTest {
 		 return loginPage;
 	}
 	
-	/*
-	 * @AfterMethod public void closeApplication() { driver.close(); }
-	 */
+	@AfterMethod
+	public void closeApplication() {
+		driver.quit();
 	}
-	
+}
+
