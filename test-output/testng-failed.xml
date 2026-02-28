@@ -9,6 +9,7 @@
       <class name="practice.Sel_frame.ErrorValidation">
         <methods>
           <include name="tileLogin"/>
+          <include name="closeApplication"/>
           <include name="launchApplication"/>
         </methods>
       </class> <!-- practice.Sel_frame.ErrorValidation -->

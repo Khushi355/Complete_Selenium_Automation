@@ -16,18 +16,28 @@ public class TileLogin extends BaseTest {
 	public void tileLogin(HashMap<String, String> input) throws IOException {
 
 		System.out.println("Test Case: Login with email: " + input.get("email"));
-		System.out.println("Current Page Title: " + driver.getTitle());
+		String beforeTitle = driver.getTitle();
+		System.out.println("Current Page Title: " + beforeTitle);
 
 		// Verify we're on the login page
-		Assert.assertNotNull(driver.getTitle(), "Page title should not be null");
+		Assert.assertFalse(beforeTitle.isEmpty(), "Initial page title should not be empty");
 
 		// Perform login
 		loginPage.loginApplication(input.get("email"), input.get("password"));
-		driver.close();
+
+		// After login, assert that URL or title changed (basic smoke assertion)
+		String afterUrl = driver.getCurrentUrl();
+		String afterTitle = driver.getTitle();
+		System.out.println("After Login URL: " + afterUrl);
+		System.out.println("After Login Title: " + afterTitle);
+
+		// Expect either the URL or title to change after a successful login
+		boolean urlChanged = !afterUrl.equals("https://srijanx.com");
+		boolean titleChanged = !afterTitle.equals(beforeTitle);
+
+		Assert.assertTrue(urlChanged || titleChanged, "Expect page to navigate or title to change after login");
 
 	}
-
-	
 
 	@DataProvider
 	public Object[][] getData() throws IOException {

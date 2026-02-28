@@ -2,22 +2,22 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-26T14:28:31 IST" name="Suite" finished-at="2026-02-26T14:29:22 IST" duration-ms="50949">
+  <suite started-at="2026-02-27T13:32:40 IST" name="Suite" finished-at="2026-02-27T13:33:48 IST" duration-ms="68163">
     <groups>
       <group name="ErrorHandling">
-        <method signature="ErrorValidation.addToCart()[pri:0, instance:practice.Sel_frame.ErrorValidation@1f010bf0]" name="addToCart" class="practice.Sel_frame.ErrorValidation"/>
+        <method signature="ErrorValidation.addToCart()[pri:0, instance:practice.Sel_frame.ErrorValidation@1921ad94]" name="addToCart" class="practice.Sel_frame.ErrorValidation"/>
       </group> <!-- ErrorHandling -->
       <group name="logged">
-        <method signature="TileLogin.tileLogin(java.util.HashMap)[pri:0, instance:practice.Sel_frame.TileLogin@38089a5a]" name="tileLogin" class="practice.Sel_frame.TileLogin"/>
+        <method signature="TileLogin.tileLogin(java.util.HashMap)[pri:0, instance:practice.Sel_frame.TileLogin@332796d3]" name="tileLogin" class="practice.Sel_frame.TileLogin"/>
       </group> <!-- logged -->
     </groups>
-    <test started-at="2026-02-26T14:28:31 IST" name="login" finished-at="2026-02-26T14:28:48 IST" duration-ms="16876">
+    <test started-at="2026-02-27T13:32:40 IST" name="login" finished-at="2026-02-27T13:33:08 IST" duration-ms="28823">
       <class name="practice.Sel_frame.TileLogin">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.Sel_frame.TileLogin@38089a5a]" started-at="2026-02-26T14:28:32 IST" name="launchApplication" finished-at="2026-02-26T14:28:38 IST" duration-ms="5839" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.Sel_frame.TileLogin@332796d3]" started-at="2026-02-27T13:32:40 IST" name="launchApplication" finished-at="2026-02-27T13:32:54 IST" duration-ms="13992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="tileLogin(java.util.HashMap)[pri:0, instance:practice.Sel_frame.TileLogin@38089a5a]" started-at="2026-02-26T14:28:38 IST" name="tileLogin" data-provider="getData" finished-at="2026-02-26T14:28:41 IST" duration-ms="3205" status="PASS">
+        <test-method signature="tileLogin(java.util.HashMap)[pri:0, instance:practice.Sel_frame.TileLogin@332796d3]" started-at="2026-02-27T13:32:54 IST" name="tileLogin" data-provider="getData" finished-at="2026-02-27T13:32:58 IST" duration-ms="3522" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,11 +28,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tileLogin -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.Sel_frame.TileLogin@38089a5a]" started-at="2026-02-26T14:28:41 IST" name="launchApplication" finished-at="2026-02-26T14:28:46 IST" duration-ms="4315" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:practice.Sel_frame.TileLogin@332796d3]" started-at="2026-02-27T13:32:58 IST" name="closeApplication" finished-at="2026-02-27T13:32:59 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.Sel_frame.TileLogin@332796d3]" started-at="2026-02-27T13:32:59 IST" name="launchApplication" finished-at="2026-02-27T13:33:03 IST" duration-ms="4589" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="tileLogin(java.util.HashMap)[pri:0, instance:practice.Sel_frame.TileLogin@38089a5a]" started-at="2026-02-26T14:28:46 IST" name="tileLogin" data-provider="getData" finished-at="2026-02-26T14:28:48 IST" duration-ms="2634" status="PASS">
+        <test-method signature="tileLogin(java.util.HashMap)[pri:0, instance:practice.Sel_frame.TileLogin@332796d3]" started-at="2026-02-27T13:33:03 IST" name="tileLogin" data-provider="getData" finished-at="2026-02-27T13:33:07 IST" duration-ms="4051" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,23 +47,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tileLogin -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:practice.Sel_frame.TileLogin@332796d3]" started-at="2026-02-27T13:33:07 IST" name="closeApplication" finished-at="2026-02-27T13:33:08 IST" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
       </class> <!-- practice.Sel_frame.TileLogin -->
     </test> <!-- login -->
-    <test started-at="2026-02-26T14:28:49 IST" name="checkerror" finished-at="2026-02-26T14:29:22 IST" duration-ms="32902">
+    <test started-at="2026-02-27T13:33:10 IST" name="checkerror" finished-at="2026-02-27T13:33:48 IST" duration-ms="37940">
       <class name="practice.Sel_frame.ErrorValidation">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.Sel_frame.ErrorValidation@1f010bf0]" started-at="2026-02-26T14:28:49 IST" name="launchApplication" finished-at="2026-02-26T14:28:53 IST" duration-ms="3391" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.Sel_frame.ErrorValidation@1921ad94]" started-at="2026-02-27T13:33:10 IST" name="launchApplication" finished-at="2026-02-27T13:33:13 IST" duration-ms="2811" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="addToCart()[pri:0, instance:practice.Sel_frame.ErrorValidation@1f010bf0]" started-at="2026-02-26T14:28:53 IST" name="addToCart" finished-at="2026-02-26T14:29:13 IST" duration-ms="20144" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:practice.Sel_frame.ErrorValidation@1921ad94]" started-at="2026-02-27T13:33:13 IST" name="addToCart" finished-at="2026-02-27T13:33:36 IST" duration-ms="23830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.Sel_frame.ErrorValidation@1f010bf0]" started-at="2026-02-26T14:29:13 IST" name="launchApplication" finished-at="2026-02-26T14:29:16 IST" duration-ms="3052" status="PASS">
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:practice.Sel_frame.ErrorValidation@1921ad94]" started-at="2026-02-27T13:33:36 IST" name="closeApplication" finished-at="2026-02-27T13:33:37 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:practice.Sel_frame.ErrorValidation@1921ad94]" started-at="2026-02-27T13:33:37 IST" name="launchApplication" finished-at="2026-02-27T13:33:42 IST" duration-ms="5476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="tileLogin()[pri:0, instance:practice.Sel_frame.ErrorValidation@1f010bf0]" started-at="2026-02-26T14:29:16 IST" name="tileLogin" finished-at="2026-02-26T14:29:22 IST" duration-ms="5769" status="FAIL">
+        <test-method signature="tileLogin()[pri:0, instance:practice.Sel_frame.ErrorValidation@1921ad94]" started-at="2026-02-27T13:33:42 IST" name="tileLogin" finished-at="2026-02-27T13:33:47 IST" duration-ms="4410" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -105,6 +117,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tileLogin -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:practice.Sel_frame.ErrorValidation@1921ad94]" started-at="2026-02-27T13:33:47 IST" name="closeApplication" finished-at="2026-02-27T13:33:48 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
       </class> <!-- practice.Sel_frame.ErrorValidation -->
     </test> <!-- checkerror -->
   </suite> <!-- Suite -->
